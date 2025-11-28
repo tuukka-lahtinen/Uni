@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv(
-    "/Users/tuukkalahtinen/Desktop/kiinteistötaloustiede/asuntokaupat_hki.csv"
+    "asuntokaupat_hki.csv"
 )
 
 # Muokataan dataa poistamalla yksi autopaikka sekä rivi joka ei ole kerrostalo
